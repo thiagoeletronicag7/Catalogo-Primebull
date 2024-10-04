@@ -1,0 +1,9 @@
+:root {
+    /* Cores */
+    --primary-color: #740000;
+    --secondary-color: #E5D1AE;
+    --tertiary-color: #000000;
+
+    /* Tamanho de elementos */
+    --font-size: 1vw;
+    }

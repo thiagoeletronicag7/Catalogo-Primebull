@@ -1,0 +1,31 @@
+#catalog{
+    padding-top: 25px;
+}
+
+h2.gender {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 35px;
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    grid-template-rows: 1fr 1fr; /* Duas linhas de tamanho igual */
+    width: 100%px;
+    height: 600px;
+}
+
+.box {
+    padding: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.red-sentence-intense{
+    color: #f80a0a;
+}

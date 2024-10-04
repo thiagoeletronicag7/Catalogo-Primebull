@@ -1,0 +1,65 @@
+#marketing{
+    margin-top: 50px;
+}
+
+.red-box {
+    width: 100%;
+    height: 45px; /* Altura da caixa */
+    background-color: var(--primary-color);
+    overflow: visible; /* Permite que a imagem ultrapasse a caixa */
+}
+
+#marketing img.marketing-img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+#about-us{
+    margin-top: 20px;
+    display: flex;
+}
+
+.about-us-left{
+    flex: 1.5;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.about-us-left h3{
+    font-size: 48px;
+}
+
+.about-us-left p{
+    font-size: 36px;
+    padding-top: 35px;
+}
+
+.social-media{
+    padding-top: 50px;
+}
+
+.about-us-left a{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000; /* Cor preta */
+    font-size: 32px; /* Tamanho do ícone */
+    padding: 20px;
+}
+
+.about-us-left a:hover{
+    color: var(--primary-color);
+}
+
+.about-us-rigth{
+    flex: 1;
+    padding-right: 30px;
+}
+
+.about-us-rigth img{
+    height: 750px;
+    object-fit: cover;
+}
+
