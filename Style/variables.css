@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     /* Cores */
     --primary-color: #740000;
@@ -6,4 +7,14 @@
 
     /* Tamanho de elementos */
     --font-size: 1vw;
+=======
+:root {
+    /* Cores */
+    --primary-color: #740000;
+    --secondary-color: #E5D1AE;
+    --tertiary-color: #000000;
+
+    /* Tamanho de elementos */
+    --font-size: 1vw;
+>>>>>>> c1433a4 (Adicionado carrossel e imagens de capa)
     }
