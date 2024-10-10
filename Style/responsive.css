@@ -56,6 +56,13 @@
     }
 
     /* Ajustes para o carrossel */
+    .carousel {
+        width: 100vw; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+    }
+    
     .carousel-images img {
         height: auto;
     }
