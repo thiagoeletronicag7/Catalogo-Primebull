@@ -4,10 +4,7 @@
 @import './reset.css';
 @import './marketing.css';
 @import './catalog.css';
-<<<<<<< HEAD
-=======
-@import './responsive.css';
->>>>>>> 0850cf6 (Adicionado responsividade)
+@import './extends.css';
 
 /*Icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
