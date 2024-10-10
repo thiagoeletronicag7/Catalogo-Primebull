@@ -1,0 +1,91 @@
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    /* Ajuste de largura das imagens e margens */
+    .center-image {
+        width: 10px;
+        height: auto;
+    }
+
+    #description {
+        margin-top: 100px;
+    }
+
+    h2.unleash-your-strength {
+        font-size: 24px;
+    }
+
+    /* Estiliza as caixas do catálogo para uma coluna em dispositivos menores */
+    .container-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto;
+    }
+
+    .box {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    /* Ajustes no marketing */
+    #marketing img.marketing-img {
+        height: auto;
+    }
+
+    #about-us{
+        flex-direction: column;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Espaço entre os ícones */
+        padding-top: 20px;
+    }
+
+    .about-us-left h3 {
+        font-size: 32px;
+    }
+
+    .about-us-left p {
+        font-size: 24px;
+    }
+
+    .about-us-left a {
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    /* Ajustes para o carrossel */
+    .carousel-images img {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .center-image {
+        width: 50%;
+        position: relative;
+        top: 45px;
+    }
+
+    h2.unleash-your-strength {
+        font-size: 20px;
+    }
+
+    .about-us-left h3 {
+        font-size: 24px;
+    }
+
+    .about-us-left p {
+        font-size: 18px;
+    }
+
+    .container-items {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+}
