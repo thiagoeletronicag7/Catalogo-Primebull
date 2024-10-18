@@ -69,10 +69,11 @@
 
 .carousel {
     position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    overflow: hidden;
+    width: 100%; /* Ocupa a largura total da tela */
+    max-width: none; /* Remove qualquer limitação de largura */
+    margin: 0 auto; /* Centraliza o carrossel */
+    padding: 0;
+    overflow: hidden; /* Garante que o conteúdo não saia da tela */
 }
 
 .carousel-images {
@@ -96,14 +97,15 @@ button.next {
     font-size: 24px;
     padding: 10px;
     cursor: pointer;
+    z-index: 10; /* Garante que as setas fiquem sobre as imagens */
 }
 
 button.prev {
-    left: 0;
+    left: 10px; /* Aproxima a seta da esquerda */
 }
 
 button.next {
-    right: 0;
+    right: 10px; /* Aproxima a seta da direita */
 }
 
 button:focus {

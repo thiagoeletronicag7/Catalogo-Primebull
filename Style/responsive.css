@@ -2,12 +2,17 @@
 @media (max-width: 768px) {
     /* Ajuste de largura das imagens e margens */
     .center-image {
-        width: 10px;
-        height: auto;
+        width: 30%;
+        position: relative;
+        top: 45px;
     }
 
     #description {
         margin-top: 100px;
+    }
+
+    #description h1{
+        font-size: 1em;
     }
 
     h2.unleash-your-strength {
@@ -33,6 +38,8 @@
 
     #about-us{
         flex-direction: column;
+        margin-left: -50px;
+        margin-right: -50px;
     }
 
     .social-media {
@@ -51,13 +58,17 @@
     }
 
     .about-us-left a {
-        font-size: 28px;
+        font-size: 20px;
         padding: 10px;
+    }
+
+    .about-us-left a i {
+        font-size: 20px; /* Ajuste o valor conforme necessário */
     }
 
     /* Ajustes para o carrossel */
     .carousel {
-        width: 100vw; 
+        width: 100%; 
         margin: 0;
         padding: 0;
         overflow: hidden; 
@@ -65,6 +76,34 @@
     
     .carousel-images img {
         height: auto;
+    }
+
+    button.prev, button.next {
+        font-size: 18px; /* Ajusta o tamanho das setas para telas menores */
+        padding-right: 15px; /* Reduz o padding em dispositivos móveis */
+        padding-left: 50px;
+    }
+
+    button.prev {
+         left: 5px; /* Ajusta a seta da esquerda no mobile */
+    }
+
+    button.next {
+        right: 5px; /* Ajusta a seta da direita no mobile */
+    }
+
+    .red-box{
+        height: 25px;
+    }
+
+    h2.gender {
+        font-size: 32px;
+    }
+
+    #catalog .yellow-box{
+        padding-bottom: 35px;
+        width: 100%;
+        height: 100px;
     }
 }
 
@@ -95,4 +134,5 @@
     .box {
         font-size: 16px;
     }
+
 }

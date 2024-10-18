@@ -27,6 +27,10 @@ body {
     margin-top: 200px;
 }
 
+#description h1{
+    font-size: 1.5em;
+}
+
 h2.unleash-your-strength {
     font-size: 36px;
 }
