@@ -1,5 +1,6 @@
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+
     /* Ajuste de largura das imagens e margens */
     .center-image {
         width: 30%;
@@ -11,7 +12,7 @@
         margin-top: 100px;
     }
 
-    #description h1{
+    #description h1 {
         font-size: 1em;
     }
 
@@ -36,7 +37,7 @@
         height: auto;
     }
 
-    #about-us{
+    #about-us {
         flex-direction: column;
         margin-left: -50px;
         margin-right: -50px;
@@ -45,7 +46,8 @@
     .social-media {
         display: flex;
         justify-content: center;
-        gap: 20px; /* Espaço entre os ícones */
+        gap: 20px;
+        /* Espaço entre os ícones */
         padding-top: 20px;
     }
 
@@ -63,36 +65,47 @@
     }
 
     .about-us-left a i {
-        font-size: 20px; /* Ajuste o valor conforme necessário */
+        font-size: 20px;
+        /* Ajuste o valor conforme necessário */
     }
 
     /* Ajustes para o carrossel */
     .carousel {
-        width: 100%; 
+        width: 100%;
         margin: 0;
         padding: 0;
-        overflow: hidden; 
+        overflow: hidden;
     }
-    
+
     .carousel-images img {
         height: auto;
     }
 
-    button.prev, button.next {
-        font-size: 18px; /* Ajusta o tamanho das setas para telas menores */
-        padding-right: 15px; /* Reduz o padding em dispositivos móveis */
-        padding-left: 50px;
+    button.prev,
+    button.next {
+        font-size: 18px;
+        padding: 5px;
+        /* Mesma configuração de padding para ambos os botões */
+        width: 40px;
+        /* Define uma largura fixa para ambos */
+        height: 40px;
+        /* Define uma altura fixa para ambos */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     button.prev {
-         left: 5px; /* Ajusta a seta da esquerda no mobile */
+        left: 35px;
+        /* Ajusta a seta da esquerda no mobile */
     }
 
     button.next {
-        right: 5px; /* Ajusta a seta da direita no mobile */
+        right: 5px;
+        /* Ajusta a seta da direita no mobile */
     }
 
-    .red-box{
+    .red-box {
         height: 25px;
     }
 
@@ -100,7 +113,7 @@
         font-size: 32px;
     }
 
-    #catalog .yellow-box{
+    #catalog .yellow-box {
         padding-bottom: 35px;
         width: 100%;
         height: 100px;
