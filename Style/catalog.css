@@ -32,3 +32,55 @@ h2.gender {
 .red-sentence-intense {
     color: #f80a0a;
 }
+
+.product-images img {
+    flex-shrink: 0;
+    width: auto; /* Mantém a proporção da imagem */
+    height: 300px; /* Define uma altura fixa */
+    max-width: 100%; /* Previne que ultrapasse a largura do contêiner */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço definido */
+    display: block;
+}
+
+/* Estilo para o carrossel de cada produto */
+.product-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.product-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Ajusta o tamanho para acomodar todas as imagens */
+}
+
+.product-images img {
+    flex-shrink: 0;
+    width: 100%; /* Cada imagem ocupará toda a largura disponível */
+    max-width: 100%; /* Ajusta para ser responsivo */
+    display: block;
+}
+
+.product-carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.product-carousel .prev {
+    left: 5px;
+}
+
+.product-carousel .next {
+    right: 5px;
+}
+
