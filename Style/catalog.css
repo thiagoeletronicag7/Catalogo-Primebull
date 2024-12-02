@@ -46,6 +46,7 @@ h2.gender {
 .product-carousel {
     position: relative;
     width: 100%;
+    max-width: 400px;
     overflow: hidden;
     text-align: center;
     margin: 10px 0;
