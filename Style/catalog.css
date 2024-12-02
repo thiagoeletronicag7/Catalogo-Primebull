@@ -1,11 +1,26 @@
 #catalog {
     padding-top: 25px;
+    background-color: var(--primary-color);
+}
+
+.yellow-box-catalog {
+    width: 100%;
+    height: 75px;
+    /* Altura da caixa */
+    background-color: var(--secondary-color);
+    position: relative;
+    overflow: visible;
+    /* Permite que a imagem ultrapasse a caixa */
+}
+
+.white-text{
+    color: white;
 }
 
 h2.gender {
     text-align: center;
     font-size: 48px;
-    padding-top: 35px;
+    padding-top:15;
 }
 
 .container-items {
@@ -29,8 +44,12 @@ h2.gender {
     font-weight: bold;
 }
 
+.yellow-sentence-intense {
+    color: #000000;
+}
+
 .red-sentence-intense {
-    color: #f80a0a;
+    color: #c90505;
 }
 
 .product-images img {
@@ -40,6 +59,7 @@ h2.gender {
     max-width: 100%; /* Previne que ultrapasse a largura do contêiner */
     object-fit: cover; /* Ajusta a imagem para caber no espaço definido */
     display: block;
+    border: 5px solid var(--secondary-color);
 }
 
 /* Estilo para o carrossel de cada produto */
@@ -51,6 +71,7 @@ h2.gender {
     text-align: center;
     margin: 10px 0;
 }
+
 
 .product-images {
     display: flex;
